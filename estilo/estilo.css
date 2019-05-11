@@ -66,7 +66,6 @@
   text-align: center;
   background-color: #20202057;
   height: 20px;
-  margin-block-end: 2px;
 }
 
 .footerContent {
@@ -83,4 +82,18 @@
   top: 0;
   width: 100%;
   height: 30px;
+}
+
+.totalContainerText{
+  background-color:  rgba(84, 232, 86, 0.486);
+}
+
+.totalContainerText:hover{
+  transform: scale(1.1);
+  background-color:  #54E856;
+}
+
+.person {
+  width: 22%;
+  height: 300px;
 }
