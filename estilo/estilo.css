@@ -145,3 +145,24 @@
   color: black;
   transform: rotateY(180deg);
 }
+
+.coletaSeletivaText {
+  width: 60%
+}
+
+h2 {
+  color: #059205
+}
+
+th {
+  height: 35px;
+  font-size: 20px;
+  width: 200px;
+  border: 1px solid black
+}
+
+td {
+  width: 200px;
+  border: 1px solid grey;
+  height: 28px;
+}
