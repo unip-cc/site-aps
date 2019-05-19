@@ -146,34 +146,24 @@
   transform: rotateY(180deg);
 }
 
-/* css-contato.html */
-#contato-form .default-control {
-  margin-bottom: 15px;
-  width: 300px;
-  height: 30px;
-  border: 1px solid #000;
-  border-radius: 3px;
-  padding: 5px;
+.coletaSeletivaText {
+  width: 60%
 }
 
-#contato-form label {
-  font-weight: bold;
+h2 {
+  color: #059205
 }
 
-#contato-form input[type="submit"] {
-  border-radius: 3px;
-  height: 30px;
-  width: 80px;
-  cursor: pointer;
-  font-weight: bold;
+th {
+  height: 35px;
+  font-size: 20px;
+  width: 200px;
+  border: 1px solid black
 }
 
-#contato-form select {
-  width: 150px !important; /* !important -> sobrescreve a regra CSS estabelecida anteriormente */  
+td {
+  width: 200px;
+  border: 1px solid grey;
+  height: 28px;
 }
 
-#contato-form textarea {
-  width: 400px !important;
-  height: 100px !important;
-}
-/* /.css-contato.html */
