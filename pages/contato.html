@@ -1,51 +1,76 @@
 <html>
+    <head>
+        <title>Recicla+ | Contato</title> <!-- ESSE É O TITULO QUE APARECERÁ NA ABA DO NAVEGADOR -->
+        <link rel="stylesheet" type="text/css" href="../estilo/estilo.css">
+        <!-- esta tag chama o arquivo css para estilização da página -->
+        
+        <script type="text/javascript" src="../js/site.js"></script>
+        <!-- Inclusão do arquivo JS -->
+    </head>
 
-<head>
-    <title>Recicla+ | Home</title> <!-- ESSE É O TITULO QUE APARECERÁ NA ABA DO NAVEGADOR -->
-    <link rel="stylesheet" type="text/css" href="../estilo/estilo.css">
-    <!-- esta tag chama o arquivo css
-																			para estilização da pagina -->
-</head>
+    <body>
+        <!-- AQUI COMEÇA A PAGINA -->
+        <div class="topoStatic">
+            <div class="topo">
+                <img class="imgLogo" src="../img/logo.png">
+                <h1 class="titulo">Recicla+</h1> <!-- ESTE NOME APARECERÁ NO INICIO DA PAGINA EM TAMANHO GRANDE -->
+            </div>
 
-<body>
-    <!-- AQUI COMEÇA A PAGINA -->
-    <div class="topoStatic">
-
-        <div class="topo">
-            <img class="imgLogo" src="../img/logo.png">
-            <h1 class="titulo">Recicla+</h1> <!-- ESTE NOME APARECERÁ NO INICIO DA PAGINA EM TAMANHO GRANDE -->
+            <div class="menu">
+                <ul>
+                    <!-- aqui damos inicio ao menu do site, ele será disposto de forma horizontal através de comandos css -->
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="oque.html">O que é reciclagem?</a></li>
+                    <li><a href="pontosDeColeta.html">Pontos de Coleta</a></li>
+                    <li><a href="comoReciclar.html">Como Reciclar</a></li>
+                    <li><a href="sobreNos.html">Sobre nós</a></li>
+                    <li><a href="nossoApp.html">Conheça nosso aplicativo</a></li>
+                    <li><a style="background-color: rgb(27, 90, 27)" href="">Contato</a></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="menu">
-            <ul>
-                <!-- aqui damos inicio ao menu do site, ele será disposto de forma horizontal 
-						através de comandos css -->
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="oque.html">O que é reciclagem?</a></li>
-                <li><a href="pontosDeColeta.html">Pontos de Coleta</a></li>
-                <li><a href="comoReciclar.html">Como Reciclar</a></li>
-                <li><a href="sobreNos.html">Sobre nós</a></li>
-                <li><a href="nossoApp.html">Conheça nosso aplicativo</a></li>
-                <li><a style="background-color: rgb(27, 90, 27)" href="">Contato</a></li>
+        <div class="conteudo">
+            <p>Tem alguma dúvida, sugestão ou crítica? Basta entrar em contato conosco por meio do formulário abaixo, responderemos o mais rápido possível!</p>
 
-            </ul>
+            <br/>
+
+            <!-- form -->
+            <form id="contato-form" action="" method="post">
+                <label for="nome">Nome</label> <br/>
+                <input type="text" name="nome" id="nome" class="default-control" required>
+
+                <br/>
+
+                <label for="email">E-mail</label> <br/>
+                <input type="email" name="email" id="email" class="default-control" required>
+
+                <br/>
+
+                <label for="assunto">Assunto </label> <br/>
+                <select id="assunto" name="assunto" class="default-control">
+                    <option value="sugestao" selected>Sugestão</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="critica">Crítica</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br/>
+
+                <label for="mensagem">Mensagem</label> <br/>
+                <textarea id="mensagem" name="mensagem" class="default-control" rows="3"></textarea>
+
+                <br/>
+
+                <input type="submit" value="Enviar" onclick="contatoForm();">
+            </form>
+            <!-- ./form -->
         </div>
-    </div>
 
-    <div class="conteudo">
-
-    </div>
-
-    <div class="footer">
-        <div class="footerContent">
-            Rodapé
+        <div class="footer">
+            <div class="footerContent">
+                Rodapé
+            </div>
         </div>
-    </div>
-
-</body>
-
-
-
-
-
+    </body>
 </html>
