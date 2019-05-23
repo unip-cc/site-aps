@@ -23,6 +23,10 @@ body {
   float: right;
 }
 
+.link-menu-ativo {
+  background-color: rgb(27, 90, 27) !important;
+}
+
 .menu ul {
   margin: 0px;
   padding: 0px;
@@ -91,7 +95,7 @@ h2 {
   color: #059205
 }
 
-
-/* css-contato.html */
-
-/* /.css-contato.html */
+.link-sem-estilo {
+  color: #000;
+  text-decoration: none;
+}
