@@ -1,0 +1,26 @@
+.totalContainerText {
+  background-color: rgba(84, 232, 86, 0.486);
+  margin-block-end: 50px;
+}
+
+.totalContainerText:hover {
+  transform: scale(1.1);
+  background-color: #54e856;
+}
+
+.coletaSeletivaText {
+  width: 60%;
+}
+
+th {
+  height: 35px;
+  font-size: 20px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+td {
+  width: 200px;
+  border: 1px solid grey;
+  height: 28px;
+}
