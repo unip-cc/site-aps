@@ -3,6 +3,10 @@
   margin-block-end: 50px;
 }
 
+.conteudo {
+  line-height: 23px;
+}
+
 .totalContainerText:hover {
   transform: scale(1.1);
   background-color: #54e856;
@@ -10,6 +14,7 @@
 
 .coletaSeletivaText {
   width: 60%;
+  text-align: justify
 }
 
 th {
