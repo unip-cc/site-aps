@@ -1,5 +1,5 @@
 .person {
-  width: 150px;
+  width: 160px;
   padding-right: 15px;
   text-align: center;
   font-size: 18px
@@ -14,6 +14,7 @@
 .textDivision1 {
   display: flex;
   width: 100%;
+  line-height: 18px
 }
 
 .informacoes {
@@ -38,7 +39,7 @@
   background-color: transparent;
   height: 200px;
   border: 1px solid #f1f1f1;
-  width: 150px;
+  width: 160px;
 
   /* Tirar caso não queira o efeito 3d */
   perspective: 1000px;
@@ -46,7 +47,7 @@
 
 .flip-box-inner {
   position: relative;
-  width: 150px;
+  width: 160px;
   height: 200px;
   text-align: center;
   transition: transform 0.8s;
@@ -60,7 +61,7 @@
 .flip-box-front,
 .flip-box-back {
   position: absolute;
-  width: 150px;
+  width: 160px;
   height: 200px;
   backface-visibility: hidden;
 }
@@ -73,4 +74,8 @@
 
 .descriptionPeople {
   margin-top: 30px;
+}
+
+.linePeople {
+  margin-bottom: 30px;
 }
