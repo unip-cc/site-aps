@@ -21,3 +21,24 @@ function isEmail(valor){
 	var expressaoRegular = "/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/";
 	return valor.match(expressaoRegular) != null;	
 }
+
+function exibeDescricaoImagem(imagemSelecionada){
+	var texto = '';
+
+	switch(imagemSelecionada){
+		case 1:
+			texto = 'Tela de carregamento do game, exibindo uma animação com o logo do jogo ao fundo.'
+			break;
+		case 2:
+			texto = ''
+			break;
+		case 3:
+			texto = ''
+			break;
+		case 4:
+			texto = ''
+			break;
+	}
+
+	document.getElementById('descricao-imagem').innerHTML = texto;
+}

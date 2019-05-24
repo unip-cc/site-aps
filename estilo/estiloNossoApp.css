@@ -1,0 +1,17 @@
+.box {
+	height: 400px;
+	width: 240px;
+	padding: 10px;
+	float: left;
+}
+
+.box img {
+	height: 400px;
+	width: 240px;
+	cursor: pointer;
+}
+
+#descricao-imagem-box {
+	float: left;
+	text-align: justify;
+}

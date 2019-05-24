@@ -99,3 +99,62 @@ h2 {
   color: #000;
   text-decoration: none;
 }
+
+#carrossel {
+  display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+#carrossel li {
+   list-style: none;
+  position: absolute;
+  
+}
+
+#carrossel img {
+  margin: auto;
+     height: 100%;
+     width: 100%;
+     vertical-align: top;
+ } 
+
+
+
+#carrossel input {
+  display:none;
+}
+#carrossel label {
+  background-color: #000;
+  bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+ }
+
+ #carrossel li:nth-child(1) label {
+   left: 10px;
+ }
+ #carrossel li:nth-child(2) label {
+   left: 40px;
+ }
+
+ #carrossel li:nth-child(3) label {
+   left: 70px;
+ }
+ 
+ #carrossel img {
+     opacity: 0;
+     visibility: hidden;
+ }
+
+#carrossel li input:checked ~ img {
+     opacity: 1;
+     visibility: visible;
+     z-index: 10;
+ }
