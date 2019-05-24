@@ -30,13 +30,13 @@ function exibeDescricaoImagem(imagemSelecionada){
 			texto = 'Tela de carregamento do game, exibindo uma animação com o logo do jogo ao fundo.'
 			break;
 		case 2:
-			texto = ''
+			texto = 'Menu inicial do game. A partir daqui você já pode começar a sua diversão (e o seu aprendizado, é claro) no Lixeiro Simulator!'
 			break;
 		case 3:
-			texto = ''
+			texto = 'Com o objetivo de ser o mais claro possível, todas as fases do game possuem um simples tutorial. Onde lhe é apresentado todas as instruções necessárias para aproveitar o máximo a experiência fornecida pelo game!'
 			break;
 		case 4:
-			texto = ''
+			texto = "Essa é a fase 3 (três) do game, que também é conhecida como 'Reciclando'. Nesta etapa você tem 60 segundos para direcionar todos os resíduos que irão aparecer na tela para a cesta de lixo correta. Existe ao todo uma quantidade de 5 resíduos."
 			break;
 	}
 
