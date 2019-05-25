@@ -18,6 +18,7 @@ function isEmpty(valor){
 }
 
 function isEmail(valor){
+	// Expressão regular p/ validação de e-mail (baseada na validação do HTML5)
 	var expressaoRegular = "/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/";
 	return valor.match(expressaoRegular) != null;	
 }
